@@ -1,0 +1,279 @@
+body {
+    margin: 0;
+    
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color:rgb(60, 75, 64);
+    max-height: 300px;
+  }
+  
+  .topnav a {
+    float:right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+  }
+  
+  .topnav a:hover {
+    background-color:rgb(60, 75, 64);
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+*{
+  box-sizing: border-box;
+  font-family: 'Pacifico', cursive;
+}
+.main-section{
+  margin:auto;
+  margin-top:200px;
+  padding:20px;
+  text-align:center;
+}
+.openSearchBtn{
+  background:#f3efee;
+  border: none;
+  color:rgb(22, 5, 5);
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.openSearchBtn:hover {
+  background: #FFB85F;
+}
+.layout{
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+}
+.layout-content {
+  position: relative;
+  top: 46%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+.layout .layoutclosebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: white;
+}
+.layout .layoutclosebtn:hover {
+  color: #ccc;
+}
+.layout input[type=text] {
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 80%;
+  background: white;
+}
+.layout input[type=text]:hover {
+  background: #f1f1f1;
+}
+.layout button {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.layout button:hover {
+  background: #bbb;
+}
+.logo
+{
+    width: 230px;
+    height: 75px;
+    margin-left: 120px;
+    top: 40px;
+    z-index: 2;
+    position: absolute;
+    border-radius: 20px;    
+}
+#link
+{
+  float:right;
+  padding-left: 20px;
+}
+#log
+{
+  float: left;
+}
+
+.carousel-img{
+  width: 100%;
+  height: 800px;
+ 
+}
+.heading{
+  margin-bottom: 60px;
+  color: rgb(255, 255, 255);
+  font-size: 90px;
+  font-family: "Nothing You Could Do", cursive;
+  font-style: italic;
+  
+}
+.description{
+  margin-bottom: 200px;
+  font-size: 22px;
+  font-family: "Nothing You Could Do", cursive;
+}
+
+.aboutimage{
+  width:100%;
+  height: 700px;
+}
+.centered-about{
+
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-size: 100px;
+  font-family: 'Pacifico', cursive;
+  top: 300px;
+  left: 650px;
+
+}
+.aboutdescription{
+ 
+  font-family: 'Pacifico', cursive;
+ 
+}
+.aboutp{
+  font-family: "Nothing You Could Do", cursive; 
+  text-align: justify;
+}
+
+.galleryimage{
+  width: 100%;
+  height: 750px;
+}
+.centered-gallery{
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-size: 100px;
+  font-family: 'Pacifico', cursive;
+  top: 300px;
+  left: 650px;
+}
+.card{
+  width: 400px;
+  border-radius: 20px;
+  margin: 50px;
+ 
+}
+
+.card-img-top{
+  width: 100%;
+  height: 50%;
+  transition: all 1.0s ease;
+}
+.card-img-bottom{
+  width: 100%;
+  height: 50%;
+  transition: all 1.0s ease;
+}
+.card:hover img{
+  transform:scale(1.2);
+}
+.card-title{
+  font-family: 'Pacifico', cursive;  
+  
+}
+.card-text{
+  font-family: "Nothing You Could Do", cursive; 
+}
+.btn{
+  margin-left: 150px;
+  width: 100px;
+  font-family: "Nothing You Could Do", cursive;
+}
+.Contactimage{
+  width: 100%;
+  height: 700px;
+}
+.centered-contcat
+{
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-size: 100px;
+  font-family: 'Pacifico', cursive;
+  top: 300px;
+  left: 630px;
+ 
+}
+.contactheading{
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+}
+.contactdescription
+{
+margin-left: 280px;
+font-family: "Nothing You Could Do", cursive;
+
+}
+
+.footer{
+  background-color:rgb(60, 75, 64);
+  height: 70px;
+  width: 100%;
+  text-align: center;
+  padding: 1.5em 1em;
+ 
+}
+.footer a{
+  
+  color: white;
+padding-top:30px;
+
+  
+}

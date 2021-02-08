@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="style.css">
+<script src="js/sample.js"></script>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="#"><button class="openSearchBtn" onclick="openSearch()"><i class="fa fa-search"></i></button></a>
+  <a href="index.html" id="log"> <img  class="logo" src="images/logo.jpg" alt="logo"> </a>
+  <a href="Contact.html" id="link">Contact</a>
+  <a href="gallery.html" id="link">Gallery</a>
+  <a href="Aboutus.html" id="link">About</a>
+  <a href="index.html" id="link">Home</a>
+ 
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+  <div id="mylayout" class="layout">
+  	<span class="layoutclosebtn" onclick="closeSearch()" title="Close layout">×</span>
+  	<div class="layout-content">
+    	<form action="http://nicesnippets.com" target="_blank">
+      		<input type="text" placeholder="Search.." name="search">
+      		<button type="submit"><i class="fa fa-search"></i></button>
+    	</form>
+  	</div>
+</div>
+</div>
+
+
+<div>
+    <img src="images/Contactus.jpg"  class="Contactimage  responsive" alt="contact">
+    <br>
+    <div class="centered-contcat">Contact Us</div>
+  </div>
+    <br>
+
+  <div class="container">        
+    <h1 class="contactheading">Keep in touch</h1>
+    <br>
+    <form class="contactdescription">
+          <div class="form-group col-md-10">
+          <label for="inputEmail">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
+        </div>
+       <br>
+        <div class="form-group col-md-10">
+          <label for="inputPassword">Password</label>
+          <input type="password" class="form-control" id="inputPassword4" placeholder="Password" required>
+        </div>
+       <br>
+      <div class="form-group col-md-10">
+        <label for="inputAddress">Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="-----" required>
+      </div>
+      <br>
+     <div class="form-group col-md-10">
+          <label for="inputCity">City</label>
+          <input type="text" class="form-control" id="inputCity" placeholder="------" required>
+        </div>
+        <br>
+       <div class="form-group col-md-10">
+          <label for="inputState">State</label>
+          <select id="inputState" class="form-control">
+            <option selected>Choose...</option>
+            <option>kerala</option>
+            <option>Andhra Pradesh</option>
+            <option>Goa</option>
+            <option>Karnataka</option>
+            <option>Maharashtra</option>
+          </select>
+        </div>
+        <br>
+        <div class="form-group col-md-10">
+          <label for="inputpin">pin</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+       <br>
+      <div class="form-group col-md-10">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Check me out
+          </label>
+        </div>
+      </div>
+      <br>
+      <button type="submit" class="btn btn-primary">Sign in</button>
+      <br>
+    </form>
+  </div>
+<br>
+
+
+<div class="footer col-lg-12">
+  <a class="fb-ic">
+       <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+     </a>
+    
+     <a class="fb-ic">
+       <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+     </a>
+    
+     <a class="fb-ic">
+       <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+     </a>
+  
+     <a class="fb-ic">
+       <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+     </a>
+     
+     <a class="fb-ic">
+       <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+     </a>
+    
+     <a class="fb-ic">
+       <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+     </a>
+</div>
+</body>
+</html>
